@@ -3,3 +3,5 @@ def calcular_visita(zona, trabajo_mismo_dia, es_fin_de_semana):
         return 8000
     if zona == "periferica":
         return 12000
+    if zona == "fuera_ciudad":
+        return 18000
